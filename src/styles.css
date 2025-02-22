@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle{
+    @apply hidden md:block bg-blue-600 rounded-full mb-[200px] p-7 relative  h-[250px] w-[250px] md:mx-24
+}
+
